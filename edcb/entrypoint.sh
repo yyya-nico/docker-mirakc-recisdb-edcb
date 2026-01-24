@@ -38,7 +38,7 @@ cp -ru /usr/local/src/EDCB_Material_WebUI/HttpPublic /var/local/edcb/
 (cd /usr/local/src/EDCB/Document/Unix && make -s setup_ini)
 
 terminate_edcb() {
-  # terminal EpgTimerSrv and all child processes such as EpgDataCap_Bon
+  # terminate EpgTimerSrv and all child processes such as EpgDataCap_Bon
   kill -TERM -$PGID
   pidwait -g $PGID > /dev/null 2>&1
 }
