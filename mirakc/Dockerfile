@@ -20,4 +20,4 @@ RUN BUILD_DEPENDENCIES="ca-certificates git build-essential cmake libpcsclite-de
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["sh", "-c", "pcscd && /usr/local/bin/mirakc"]
+ENTRYPOINT ["sh", "-c", "pcscd --disable-polkit && /usr/local/bin/mirakc"]
