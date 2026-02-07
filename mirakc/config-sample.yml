@@ -16,8 +16,4 @@ tuners:
   - name: Tuner0
     types: [GR]
     command: >-
-      recpt1 --device /dev/px4video2 {{{channel}}} - -
-
-filters:
-  decode-filter:
-    command: arib-b25-stream-test
+      recisdb tune --device /dev/px4video2 --channel {{{channel}}} {{{extra_args}}} -

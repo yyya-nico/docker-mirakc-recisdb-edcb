@@ -1,6 +1,7 @@
-# docker-mirakc-edcb
+# docker-mirakc-recisdb-edcb
 
 * [mirakc](https://github.com/mirakc/mirakc)
+* [recisdb-rs](https://github.com/kazuki0824/recisdb-rs)
 * [tkntrec 版 EDCB](https://github.com/tkntrec/EDCB)
 * [EDCB_Material_WebUI](https://github.com/EMWUI/EDCB_Material_WebUI)
 * [BonDriver_LinuxMirakc](https://github.com/matching/BonDriver_LinuxMirakc)
