@@ -4,6 +4,10 @@ epg:
 server:
   addrs:
     - http: '0.0.0.0:40772'
+  mounts:
+    /mira-tuners:
+      path: /var/www/mira-tuners
+      index: index.html
 
 channels:
   # Add channels of interest.
