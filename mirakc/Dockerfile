@@ -1,4 +1,5 @@
-FROM mirakc/mirakc:main-debian
+ARG ARCH=
+FROM ${ARCH}mirakc/mirakc:debian
 
 RUN BUILD_DEPENDENCIES="wget curl" && \
     apt update && \
